@@ -1,5 +1,5 @@
 releases:
 {{ range $subset_index, $subset := .Values.subsets }}
-- name: {{ subset.name }}
+- name: {{ $subset.name }}
   chart: ./nginx
 {{ end }}
