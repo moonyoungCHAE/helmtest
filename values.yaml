@@ -1,0 +1,9 @@
+nodes:
+  - host-10-0-1-107
+  - host-10-0-1-131
+  - host-10-0-11-222
+subsets:
+  - name: a
+    partition: 0
+  - name: b
+    partition: 1
