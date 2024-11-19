@@ -1,7 +1,7 @@
 releases:
   - name: a
     namespace: argocd-test
-    chart: ./nginx
+    chart: /nginx
   - name: b
     namespace: argocd-test
-    chart: ./nginx
+    chart: /nginx
