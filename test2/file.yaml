@@ -1,6 +1,4 @@
-Building dependency release=a, chart=nginx
-Templating release=a, chart=nginx
----
+
 # Source: nginx/templates/serviceaccount.yaml
 apiVersion: v1
 kind: ServiceAccount
